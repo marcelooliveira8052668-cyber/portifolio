@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color:#333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    display: flex;          /* coloca lado a lado */
+    gap: 20px;              /* espaço entre eles */
+    padding: 20px;
+    justify-content: center;
+}
+
+.content{
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;          /* largura fixa para ficar igual aula */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+footer{
+    background-color: black;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+}
