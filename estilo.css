@@ -30,4 +30,16 @@ footer{
     color: #ccc;
     text-align: center;
     padding: 10px;
+
+}
+
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* deixa redonda */
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid #0077ff;
 }
