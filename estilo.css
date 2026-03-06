@@ -1,54 +1,71 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
 }
 
-header{
-    background-color:#333;
-    color: white;
-    padding: 20px;
+/* Cabeçalho */
+
+header {
     text-align: center;
+    background: linear-gradient(135deg, #0a3d62, #3c6382);
+    color: white;
+    padding: 40px 20px;
 }
 
-main{
-    display: flex;          /* coloca lado a lado */
-    gap: 20px;              /* espaço entre eles */
+header img {
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+/* Conteúdo */
+
+main {
+    max-width: 1000px;
+    margin: auto;
     padding: 20px;
-    justify-content: center;
 }
 
-.content{
-    background-color: #f4f4f4;
+.content {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #0a3d62;
+}
+
+/* Cards de serviços */
+
+.linha-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 250px;
+    background: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
-    width: 300px;          /* largura fixa para ficar igual aula */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
 }
 
-footer{
-    background-color: black;
-    color: #ccc;
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+
+footer {
     text-align: center;
-    padding: 10px;
-
-}
-
-
-.foto-perfil {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%; /* deixa redonda */
-    object-fit: cover;
-    display: block;
-    margin: 20px auto;
-    border: 4px solid #0077ff;
-}
-
-.foto-perfil {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid #333;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    background: #0a3d62;
+    color: white;
+    padding: 15px;
 }
