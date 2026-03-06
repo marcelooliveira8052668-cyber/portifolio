@@ -14,8 +14,12 @@ header {
     padding: 40px 20px;
 }
 
+/* FOTO DE PERFIL */
+
 header img {
-    width: 150px;
+    width: 120px;       /* tamanho da foto */
+    height: 120px;      /* altura igual para ficar redonda */
+    object-fit: cover;  /* corta a imagem proporcionalmente */
     border-radius: 50%;
     border: 4px solid white;
     margin-bottom: 15px;
@@ -24,7 +28,7 @@ header img {
 /* Conteúdo */
 
 main {
-    max-width: 140px;
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
 }
@@ -41,7 +45,7 @@ h2 {
     color: #0a3d62;
 }
 
-/* Cards de serviços */
+/* Cards */
 
 .linha-cards {
     display: flex;
@@ -70,5 +74,3 @@ footer {
     color: white;
     padding: 15px;
 }
-
-
