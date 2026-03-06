@@ -17,7 +17,7 @@ header {
 /* FOTO DE PERFIL */
 
 header img {
-    width: 120px;       /* tamanho da foto */
+    width: 150px;       /* tamanho da foto */
     height: 120px;      /* altura igual para ficar redonda */
     object-fit: cover;  /* corta a imagem proporcionalmente */
     border-radius: 50%;
@@ -74,3 +74,4 @@ footer {
     color: white;
     padding: 15px;
 }
+
